@@ -1,0 +1,127 @@
+.card {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  width: 200px;
+  height: 408px;
+}
+
+.card__product-image {
+  width: 160px;
+  height: 134px;
+  margin: 32px 19px;
+  display: flex;
+}
+
+.card__product-name {
+  color: #060b35;
+  margin-top: 40px;
+  margin-left: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__product-code {
+  color: #616070;
+  margin-top: 4px;
+  margin-left: 16px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__price {
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+}
+
+.card__price-title {
+  color: #616070;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.card__price-value {
+  color: #060b35;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__button {
+  background-color: #00acdc;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+  align-items: center;
+  width: 165px;
+  height: 39px;
+  margin: 16px auto 0;
+  display: flex;
+}
+
+.card__button-link {
+  color: #fff;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.card__button:hover {
+  background-color: #fff;
+}
+
+.card__button:hover .card__button-link {
+  color: #00acdc;
+}
+
+.stars {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+}
+
+.stars__stars {
+  align-items: center;
+  display: flex;
+}
+
+.stars__stars--star {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.stars__stars--star:nth-child(-n+4) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+.stars__text {
+  color: #060b35;
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
